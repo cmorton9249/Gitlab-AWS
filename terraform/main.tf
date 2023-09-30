@@ -14,12 +14,3 @@ provider "aws" {
   secret_key = var.AWS_SECRET_ACCESS_KEY
 }
 
-
-resource "aws_s3_bucket" "example" {
-  bucket = "morton-personal-test-bucket-1"
-
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
