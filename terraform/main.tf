@@ -16,7 +16,7 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+  bucket = "morton_personal_test_bucket_1"
 
   tags = {
     Name        = "My bucket"
