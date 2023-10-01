@@ -1,8 +1,3 @@
-module "state-storage" {
-  source = "./modules/state-storage"
-
-}
-
-module "networking" {
-  source = "./modules/networking"
+module "get-setup" {
+  source = "./modules/get-setup"
 }
